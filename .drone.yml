@@ -12,14 +12,4 @@ script:
 notify:
   email:
     recipients:
-      - brad@drone.io
-
-publish:
-  s3:
-    acl: public-read
-    region: us-east-1
-    bucket: downloads.drone.io
-    access_key: $AWS_KEY
-    secret_key: $AWS_SECRET
-    source: deb/drone.deb
-    target: latest/
+      - keymon@gmail.com
